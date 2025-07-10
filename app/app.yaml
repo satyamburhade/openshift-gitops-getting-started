@@ -9,8 +9,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    directory:
-      recurse: true
     path: app
     repoURL: https://github.com/satyamburhade/openshift-gitops-getting-started.git
     targetRevision: HEAD
