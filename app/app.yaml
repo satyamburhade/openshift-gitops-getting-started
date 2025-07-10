@@ -14,7 +14,3 @@ spec:
     path: app
     repoURL: https://github.com/satyamburhade/openshift-gitops-getting-started.git
     targetRevision: HEAD
-  syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
