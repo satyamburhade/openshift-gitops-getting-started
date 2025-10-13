@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
- # annotations:
-  #  argocd.argoproj.io/sync-options: Delete=false
+  annotations:
+    argocd.argoproj.io/sync-options: Delete=false
   labels:
     app: spring-petclinic
     app.kubernetes.io/component: web
